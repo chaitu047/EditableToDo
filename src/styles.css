@@ -1,0 +1,25 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  gap: 0.5rem;
+}
+.task {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
